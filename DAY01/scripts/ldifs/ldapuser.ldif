@@ -1,0 +1,16 @@
+dn: uid=tecmint,ou=People,dc=devopsldab,dc=com
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: tecmint
+uid: tecmint
+uidNumber: 1005
+gidNumber: 1005
+homeDirectory: /home/tecmint
+userPassword: USER_PASS
+loginShell: /bin/bash
+gecos: tecmint
+shadowLastChange: 0
+shadowMax: -1
+shadowWarning: 0
